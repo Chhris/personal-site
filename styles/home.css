@@ -43,4 +43,8 @@ a:hover {
   .main-content {
     width: 100%;
   }
+
+  .body {
+    font-size: 36px;
+  }
 }
