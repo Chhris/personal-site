@@ -1,0 +1,40 @@
+/* add some style to the page */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  color: #444444;
+}
+
+ul {
+  color: #444444;
+}
+
+a {
+  color: #007bff; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3; 
+}
+
+.main-content {
+  max-width: 700px;
+}
