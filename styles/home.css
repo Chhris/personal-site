@@ -10,8 +10,10 @@ body {
 }
 
 h1 {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  text-align: center;
+  font-size: 72px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 p {
