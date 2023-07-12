@@ -24,6 +24,10 @@ ul {
   color: #444444;
 }
 
+li {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
 a {
   color: #007bff; 
   text-decoration: none;
