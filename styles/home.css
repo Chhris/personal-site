@@ -1,6 +1,6 @@
 /* add some style to the page */
 body {
-  font-family: sans-serif;
+  font-family: 'Inconsolata', sans-serif;
   margin: 0;
   padding: 0;
   background-color: white;
@@ -9,11 +9,8 @@ body {
   align-items: center;
 }
 
-h {
 
-}
 h1 {
-  font-family: 'FreeMono', sans-serif;
   text-align: center;
   font-size: 72px;
   margin-top: 0px;
