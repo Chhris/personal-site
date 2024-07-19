@@ -3,14 +3,6 @@
   <html lang="en"></html>
 
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7T9WXENDBJ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-7T9WXENDBJ');
-    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,50 +12,64 @@
     <title>Chris Emmett</title>
 
     <!-- CSS link -->
-    <link rel="stylesheet" href="styles/home.css">
-
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="stylesheet" href="styles/main.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
+
     <div class="main-content">
-      <h1>⛰️</h1>
 
-      <h1 style="text-align: left; font-size: 30px;">Chris Emmett</h1>
-      <p>Hello! I'm Chris. Welcome to my personal site.</p>
+      <nav>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="thoughts.html">Thoughts</a></li>
+            <li><a href="misc.html">Misc.</a></li>
+        </ul>
+      </nav>
 
-      <h3>The basics:</h3>
+      <h1 style="text-align: left;">Chris Emmett</h1>
+
+      <div class="icon-text">
+        <img src="images/icons/calendar-days.svg" class="icon" alt="Calendar Icon"> <span id="age">
+      </div>
+
+      <div class="icon-text">
+        <img src="images/icons/house-chimney.svg" class="icon" alt="House Icon"> Chicago, IL
+      </div>
+
+      <div class="icon-text">
+        <img src="images/icons/briefcase.svg" class="icon" alt="Briefcase Icon"> Civil Engineering Analyst
+      </div>
+
+      <h3>Currently:</h3>
+
       <ul>
-        <li>Age: 23</li>
-        <li>Living: Chicago, IL</li>
-        <li>From: Barlett, IL</li>
-        <li>Alumni: (The?) Ohio State University, B.S. Civil Engineering, Minor in Humanitarian Engineering</li>
-      </ul>
-
-      <h3>For work:</h3>
-      <p>I'm a civil engineering analyst at Kimley-Horn. I specialize in small retail sites, multi-family properties, and recently a bit of solar farm work. I have past experience in healthcare construction managment.</p>
-      <h3>What I'm up to:</h3>
-      <ul>
-        <li><a href="https://thebuiltfuture.substack.com/" target="_blank">The Built Future</a>: Writing a newsletter covering the future of designing and constructing the built environment</li>
+        <li><a href="https://thebuiltfuture.substack.com/" target="_blank">The Built Future</a>: Writing a newsletter covering emerging AEC technologies</li>
         <li>Fundraising and training to run the 2024 Chicago Marathon with the Alzheimer's Association charity team. <a href="https://act.alz.org/site/TR/ActiveEvents/IL-Illinois?px=23468953&pg=personal&fr_id=17254" target="_blank">You can donate to my fundraiser here!</a></li>
       </ul>
 
      
 
-      <h3>Connect with me</h3>
-      <ul>
-        <li>🐦 X: <a href="https://twitter.com/chrisemmett_" target="_blank">@chrisemmett_</a></li>
-        <li>💼 Linkedin: <a href="https://www.linkedin.com/in/cemmett/" target="_blank">@cemmett</a></li>
-        <li>📧 Email: emm(dot)chris7@gmail(dot)com</li>
-      </ul>
+      <h3>Links</h3>
+
+      <div class="icon-text">
+        <img src="images/icons/x-twitter.svg" class="icon" alt="X/Twitter Icon"><a href="https://twitter.com/chrisemmett_" target="_blank">@chrisemmett_</a>
+      </div>
+
+      <div class="icon-text">
+        <img src="images/icons/linkedin-in.svg" class="icon" alt="House Icon"><a href="https://www.linkedin.com/in/cemmett/" target="_blank">@cemmett</a></li>
+      </div>
+
+      <div class="icon-text">
+        <img src="images/icons/mail.svg" class="icon" alt="Mail Icon">emm(dot)chris7@gmail(dot)com
+      </div>
       
     </div>
 
+    <!-- Load js-->
+    <script src="scripts/age.js"></script>
   </body>
 
 </html>

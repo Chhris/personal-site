@@ -1,0 +1,100 @@
+/* GLOBAL STYLES */
+
+/* navigation menu */
+
+.nav-menu {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-menu li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav-menu a {
+  color: black
+}
+
+.nav-menu a:visited {
+  color: black
+}
+
+.nav-menu li:last-child {
+  margin-right: 0;
+}
+
+/* HOME PAGE STYLES */
+
+/* icons */
+.icon { 
+  width: 17px;
+  height: 17px;
+  margin-right: 8px;
+}
+
+
+.icon-text { /* Vertically aligns the icons with the text */
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+body {
+  font-family: 'Inconsolata', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dceaf4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #007bff; 
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3; 
+}
+
+.main-content {
+  max-width: 700px;
+}
+/*
+@media (max-width: 768px) {
+  .main-content {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .body {
+    font-size: 36px;
+  }
+}
+*/
+.thought-links {
+  display: flex;
+  text-align: left;
+}
+
+
